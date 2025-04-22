@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-gray-900 p-8 flex flex-col items-center justify-center">
+    <main className="min-h-screen bg-linear-to-r from-amber-50 to-amber-500 text-gray-900 p-8 flex flex-col items-center justify-center">
       <div className="max-w-2xl text-center">
         <div className="flex justify-center mb-4">
-          <img src="/logo.svg" alt="Ad Nexus Logo" />
+          <img className="" src="/logo.svg" alt="Ad Nexus Logo" />
         </div>
         <h1 className="text-4xl font-bold mb-4">AdNexus – Unified Ad Campaign Management Tool</h1>
         <p className="text-lg mb-6">
